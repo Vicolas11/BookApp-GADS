@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/et_Tile"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/et_author"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/etPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/et_publsher"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/etISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/et_ISBN"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Search" />
+</LinearLayout>
